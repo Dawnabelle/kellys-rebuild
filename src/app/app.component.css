@@ -1,3 +1,6 @@
+*{
+  /*border: 1px solid turquoise;*/
+}
 body{
   background:
 linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -11,12 +14,14 @@ background-size: 20px 20px;
 height: 100vh;
 color: white;
 }
-*{
-  /*border: 1px solid turquoise;*/
+.container {
+  padding: 0 50px;
 }
 .header{
   display: flex;
   justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 .logo img{
   max-width: 75vw;
@@ -31,11 +36,10 @@ color: white;
 }
 .happy-hour{
   align-self: center;
-  width: 25vw;
+  max-width: 25vw;
   text-align: center;
-  font-size: calc(100%+.5em);
+  font-size: calc(100% + .5em);
   font-family: 'Bree Serif', serif;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 .nav{
   display: flex;

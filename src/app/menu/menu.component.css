@@ -1,0 +1,15 @@
+.title{
+  font-family: 'Bree Serif', serif;
+  font-size: calc(100% + 1.5em);
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+
+}
+.column{
+  padding-top: 40px;
+}
+.column p{
+  font-size: 1.4em;
+}

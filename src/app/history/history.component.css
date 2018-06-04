@@ -1,0 +1,17 @@
+.text-container p{
+  font-family: serif;
+  font-size: 1.25em;
+}
+.text-container img{
+  float: left;
+  margin-right: 20px;
+}
+.emp1{
+  font-size: 1.5em;
+}
+.emp2{
+  font-size: 2em;
+}
+.emp3{
+  font-size: 1.75em;
+}
