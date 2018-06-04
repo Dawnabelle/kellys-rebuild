@@ -1,27 +1,42 @@
-# Kellys
+<!-- Twitter icon from https://github.com/carlsednaoui/gitsocial -->
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+# _Kelly's_
 
-## Development server
+#### _UI- Freelance Contracts &amp; Contests_
+_UI - Week 3: Responsive Design &amp; Preprocessors_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### **Dawn Mott** :sunrise_over_mountains: and **Ami Cooper** _June 4, 2018_
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Re-do of [Kelly's Olympian](https://kellysolympian.com/events/) website_
 
-## Build
+## Plan
+<div><img src="./src/assets/whiteboard.jpg" width="350px">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Setup/Installation Requirements
 
-## Running unit tests
+* _Clone this repository to your computer_
+* _Run "npm install" in CLI_
+* _Run "npm run build" in CLI_
+* _Run npm start_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Known Bugs
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+_There are many known :bug: at this time. This is a work in progress._
 
-## Further help
+## Support and contact details
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_If you'd like to chat, please contact_ @dawnrparty _or_ @arc_tangents _on_ ![alt text][1.1].
+
+## Technologies Used
+
+_HTML, CSS, JavaScript, jQuery, Bootstrap, and webpack._
+
+### License
+
+*This page is licensed under the MIT license.*
+
+&copy; 2018 **Dawn Mott** :sunrise_over_mountains: and **Ami Cooper**
