@@ -13,7 +13,7 @@ _UI - Week 3: Responsive Design &amp; Preprocessors_
 _Re-do of [Kelly's Olympian](https://kellysolympian.com/events/) website_
 
 ## Plan
-<div><img src="./src/assets/whiteboard.jpg" width="350px">
+<div><img src="./src/assets/whiteboard.jpg" width="350px"></div>
 
 ## Setup/Installation Requirements
 

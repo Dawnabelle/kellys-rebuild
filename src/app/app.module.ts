@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import { FormsModule } from '@angular/forms';
+import { routing } from './app.routing';
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
+
 import { MenuComponent } from './menu/menu.component';
 import { HistoryComponent } from './history/history.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -13,10 +16,14 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     MenuComponent,
     HistoryComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    routing,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,14 @@
-import { ModuleWithProviders } from '@angular/core';
+import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {MenuComponent} from './menu/menu.component';
-import {HistoryComponent } from './history/history.component';
-import {ContactComponent} from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
+import { MenuComponent } from './menu/menu.component';
+import { HistoryComponent } from './history/history.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   {
     path: '',
-    component: AppComponent
+    component: HomeComponent
   },
   {
     path: 'menu',
@@ -22,4 +23,5 @@ const appRoutes: Routes = [
     component: ContactComponent
   }
 ];
+
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
